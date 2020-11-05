@@ -1,0 +1,23 @@
+.mobile-header{
+    margin-top: 0.7rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.mobile-logo__img{
+    width: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.humburger{
+    color: brown;
+    font-size: 7vw;
+    margin-top: 4vw;
+    margin-left: 4vw;
+}

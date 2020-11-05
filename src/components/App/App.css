@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.outer{
+    display: flex;
+    justify-content: center;
+}
+
+.app-container{
+    width: 80%;
+}
+
+@media (max-width: 750px){
+    .app-container{
+        width: 100%;
+    }
+    .outer{
+        justify-content: unset;
+    }
+}
